@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+    font-family: "Inter", system-ui !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #f8f9fa;
+    background-color: #1a1a1a;
+}
+a .site-logo {
+    width: 105px;
+}
+.navbar ul li a {
+    color: #f8f9fa;
+}
+.navbar ul li a:hover {
+    color: #0dcaf0;
+}
+.navbar ul li .active-menu {
+    font-weight: bold;
+    color: #0dcaf0;
+}
+.download-button {
+    color: #f8f9fa;
+    transition: 0.5s all ease-in-out !important;
+}
+.download-button i {
+    color: #1a1d20;
+    transition: 0.5s all ease-in-out !important;
+}
+.download-button:hover {
+    color: #1a1d20;
+}
+.download-button:hover i {
+    color: #f8f9fa;
+}
+.social-icon {
+    color: #0dcaf0;
+    transition: 0.5s all ease-in-out !important;
+}
+.social-icon:hover {
+    color: #f8f9fa;
+}
+.portfolio-card {
+    border: 1px solid #808080;
+    padding: 20px;
+    border-radius: 5px;
+}
+.portfolio-card ul {
+    list-style-position: inside;
+}
+.portfolio-card i {
+    color: #0dcaf0;
+    transition: 0.5s all ease-in-out !important;
+}
+.portfolio-card i:hover {
+    color: #f8f9fa;
+}
+
+.contact-card {
+    width: 70%;
+    box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.5);
+}
+.contact-card form {
+    width: 60%;
+}
+.contact-card input {
+    width: 70%;
+}
+.contact-card textarea {
+    width: 80%;
+}
+.custom-input {
+    background-color: #1a1a1a;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0px;
+    padding: 10px;
+}
+.custom-input::placeholder {
+    color: #888;
+}
+.custom-btn {
+    background-color: #555;
+    color: #afedfa;
+    border: none;
+    border-radius: 0px;
+}
+.custom-btn:hover {
+    background-color: #0dcaf0;
+    color: #555;
+}
+footer {
+    border-top: 1px solid #55555570;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-card {
+        width: 95%;
+    }
+}
